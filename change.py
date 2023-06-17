@@ -15,6 +15,10 @@ class Screen_One(Screen):
  
 class Screen_Two(Screen):
     pass
+class Screen_Three(Screen):
+    pass
+class Screen_Four(Screen):
+    pass
  
 class CHANGEApp(App):
     def build(self):
