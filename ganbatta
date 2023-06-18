@@ -1,0 +1,45 @@
+masuku_apli
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	new file:   Result_mizyu_bin.jpg
+#	new file:   __pycache__/emo.cpython-38.pyc
+#	new file:   __pycache__/pikapika.cpython-38.pyc
+#	deleted:    buildozer.spec
+#	deleted:    camera.py
+#	deleted:    change.kv
+#	modified:   change.py
+#	modified:   emo.py
+#	new file:   emo_sample.py
+#	deleted:    image.kv
+#	deleted:    image.py
+#	deleted:    img/1.jpg
+#	new file:   img/4607.jpg
+#	new file:   img/4608.jpg
+#	new file:   img/4609.jpg
+#	new file:   img/4610.jpg
+#	new file:   img/4611.jpg
+#	new file:   img/4612.jpg
+#	new file:   img/4613.jpg
+#	new file:   img/4614.jpg
+#	new file:   img/kusamura.jpg
+#	new file:   img/mizyumaru.png
+#	new file:   img/potyama.png
+#	new file:   img/purin.png
+#	new file:   img/riza.png
+#	new file:   img/sample2.jpg
+#	new file:   "img/\347\224\273\345\203\2171.png"
+#	new file:   label.py
+#	new file:   label.zip
+#	deleted:    main.py
+#	new file:   mask_sample.py
+#	new file:   output.txt
+#	new file:   pikapika.py
+#	new file:   pikapika.zip
+#	new file:   res14output.jpg
+#	new file:   res6output.jpg
+#

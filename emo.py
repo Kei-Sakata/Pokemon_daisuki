@@ -16,8 +16,7 @@ def peripheral_light_correct(img, gain_params):
     return np.clip(img * gainmap, 0., 255)
  
 
-def main():
-    img = cv2.imread("hukei.png")
+def main(img):
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
  
@@ -40,7 +39,7 @@ def main():
     img_hsv[:, :, 2] = gray
     img = cv2.cvtColor(img_hsv, cv2.COLOR_HSV2BGR)
  
-    cv2.imwrite("./hukei_emo.png", img)
+    return img
  
  
 if __name__ == '__main__':
