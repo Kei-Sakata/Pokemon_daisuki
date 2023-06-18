@@ -17,11 +17,10 @@ def put_color_to_objects(src_img, label_table):
         label_img[label_group_index] = random.sample(range(255), k=3)
     return label_img
 
-if __name__ == "__main__":
+def main(image): 
     
-    src_img = cv2.imread('adi.jpg')
-    bin_img = binarize(src_img, 180, cv2.THRESH_BINARY_INV)
+    bin_img = binarize(image, 180, cv2.THRESH_BINARY_INV)
     
     
     retval, labels = cv2.connectedComponents(bin_img)
-    cv2.imwrite("./labels.jpg", put_color_to_objects(src_img, labels))
+    return  put_color_to_objects(image, labels)
